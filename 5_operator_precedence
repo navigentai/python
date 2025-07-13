@@ -1,0 +1,22 @@
+# Python follows standard math rules for operator precedence
+
+result1 = 3 + 4 * 2
+result2 = (3 + 4) * 2
+
+print("Without parentheses:", result1)  # 4*2=8, then 3+8 = 11
+print("With parentheses:", result2)     # 3+4=7, then 7*2 = 14
+
+# More operator precedence examples
+print("Result of (20 - 3) + 2 ** 2 =", (20 - 3) + 2 ** 2)  # (20-3)=17, 2**2=4, 17+4=21
+print("10 + 5 * 2 =", 10 + 5 * 2)            # 10 + (5*2) = 20
+print("10 * 5 + 2 =", 10 * 5 + 2)            # (10*5) + 2 = 52
+print("10 * (5 + 2) =", 10 * (5 + 2))        # 10 * 7 = 70
+print("100 / 5 + 2 =", 100 / 5 + 2)          # (100 / 5) + 2 = 22.0
+print("2 ** 3 * 3 =", 2 ** 3 * 3)            # (2 ** 3) * 3 = 24
+print("2 ** (3 * 3) =", 2 ** (3 * 3))        # 2 ** 9 = 512
+
+# Exercises
+print(5 + 2 * 3)         # 2*3=6, 5+6=11
+print((5 + 2) * 3)       # 5+2=7, 7*3=21
+print(10 / 2 ** 2)       # 2**2=4, 10/4=2.5
+print(10 // 3 + 1)       # 10//3=3, 3+1=4
